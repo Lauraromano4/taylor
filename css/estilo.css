@@ -1,0 +1,42 @@
+body{
+    background-image: url(../img/back.jpg);
+}
+
+ /* Estilos básicos para o menu */
+ nav {
+    background-color: #162141;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para o logotipo */
+.logo img {
+    height: 50px;
+    width: auto;
+   
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end; /* Move o menu para a direita */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
